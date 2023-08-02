@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard</title>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+
+    <!-- <style>
+      body {
+        margin-top: 40px;
+        padding: 0 20px;
+      }
+    </style> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Dashboard Kematian Di Indonesia</span>
+    </nav>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Data Penyebab Kematian di Indonesia</div>
+            <div class="card-body">
+              <div>
+                <iframe 
+                src="https://docs.google.com/spreadsheets/d/1QU1NnZl2l6fleGar7VF62qK5azeQ7XpqF3k9RlHntmE/edit#gid=188966321"
+                style="width: 100%; height: 350px;"></iframe>            
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Staked Charts</div>
+            <div class="card-body">
+              <canvas id="chart1"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Staked Charts</div>
+            <div class="card-body">
+              <canvas id="chart2"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Narasi tentang Penyebab Kematian di Indonesia</div>
+            <div class="card-body">
+              <div>
+                <p>Data yang disajikan dalam dua grafik ini merupakan informasi tentang kematian di Indonesia berdasarkan penyebab kematian dan tahun pelaporan. Grafik pertama menunjukkan persebaran jumlah kematian berdasarkan jenis penyebab, sementara grafik kedua menggambarkan jumlah kematian di Indonesia pada setiap tahun berdasarkan jenis penyebabnya.</p>
+                <h3>Grafik Pertama - Penyebab Kematian di Indonesia:</h3>
+                <p>Grafik pertama menampilkan informasi tentang jenis-jenis penyebab kematian di Indonesia. Data diambil dari sumber eksternal dan disajikan dalam bentuk diagram batang (bar chart). Pada sumbu X (horizontal), terdapat keterangan tentang jenis penyebab kematian, seperti "Abrasi Air Laut" dan "AIDS". Sementara pada sumbu Y (vertikal), terdapat keterangan tentang jumlah kematian yang terjadi akibat setiap jenis penyebab. Setiap batang dalam grafik mewakili jenis penyebab kematian tertentu dan tinggi batang menunjukkan jumlah kematian yang terjadi. Warna batang dalam grafik dihasilkan secara acak.</p>
+                <h3>Grafik Kedua - Kematian di Indonesia Berdasarkan Tahun dan Tipe:</h3>
+                <p>Grafik kedua menyajikan informasi tentang jumlah kematian di Indonesia pada setiap tahun berdasarkan jenis penyebab kematian. Seperti grafik pertama, grafik kedua juga berupa diagram batang. Pada sumbu X (horizontal), terdapat keterangan tahun pelaporan kematian, misalnya "2012", "2000", "2001", dan seterusnya. Sementara pada sumbu Y (vertikal), terdapat keterangan tentang jumlah kematian yang terjadi pada setiap tahun tertentu. Setiap batang dalam grafik mewakili tahun pelaporan tertentu dan tinggi batang menunjukkan jumlah kematian yang terjadi pada tahun tersebut. Warna batang dalam grafik dihasilkan secara acak.</p>
+                <p>Kedua grafik ini memberikan informasi yang berguna untuk memahami pola dan tren kematian di Indonesia. Grafik pertama memberikan gambaran umum tentang jenis-jenis penyebab kematian yang paling dominan, sedangkan grafik kedua menyajikan informasi lebih rinci tentang jumlah kematian pada setiap tahun berdasarkan jenis penyebabnya.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- <div id="chart2"></div> -->
+    <!-- Tambahkan lebih banyak elemen div untuk grafik lainnya -->
+  </body>
+</html>
